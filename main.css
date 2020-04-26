@@ -1,0 +1,135 @@
+body {
+  background: url(back.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+
+.head {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #84e5f1;
+  width: 292px;
+  margin-top: 300px;
+  font-family: urw-din-semi-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  -webkit-animation-name: appear;
+  -webkit-animation-duration: 1.5s;
+}
+
+.container {
+  width: 230px;
+  height: 110px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  font-family: urw-din, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 10px;
+  color: white;
+  -webkit-animation-name: appear;
+  -webkit-animation-duration: 1.5s;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* #clockbox {
+  width: 250px;
+  margin: auto;
+  text-align: left;
+  color: white;
+  margin-top: 0px;
+  font-size: 11px;
+  font-family: urw-din, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* .text2 {
+  width: 250px;
+  margin: auto;
+  color: white;
+  font-size: 11px;
+  margin-top: 30px;
+  font-family: urw-din, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  -webkit-animation-name: appear;
+  -webkit-animation-duration: 1.5s;
+} */
+
+.logo {
+  width: 230px;
+  margin: auto;
+  height:10px;
+  margin: auto;
+  margin-top: 70px;
+  opacity: 0.8;
+  -webkit-animation-name: appear;
+  -webkit-animation-duration: 1.5s;
+}
+
+.insta {
+  float: left;
+  width: 13px;
+  padding-right: 10px;
+}
+.fb {
+  float: left;
+  width: 13px;
+  padding-right: 10px;
+}
+
+.linkdin {
+  float: left;
+  width: 13px;
+  padding-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 35px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+li a:link {
+  color: white;
+}
+
+li a:visited {
+  color: white;
+}
+
+.pages:hover {
+    color: #84e5f1;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+@-webkit-keyframes appear {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}

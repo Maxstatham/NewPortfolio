@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MACALLISTER.</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zym7lch.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="head">
+        HELLO I'M MACALLISTER STATHAM<br>
+        AND I SOMETIMES LIKE TO MAKE THINGS.<br>
+        PLEASE EXPLORE MY WORK.
+      </div>
+    </header>
+
+    <div class="container">
+      <ul>
+        <li><a href="work.html" class="pages">SELECTED WORK</a></li>
+        <li><a href="archive.html" class="pages">ARCHIVE</a></li>
+        <li><a href="about.html" class="pages">ABOUT</a></li>
+        <li><a href="contact.html" class="pages">CONTACT</a></li>
+        <li><a href=""><div id="clockbox"></div></a></li>
+          <script type="text/javascript">
+          function GetClock(){
+          var d=new Date();
+          var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+          if(nhour==0){ap=" AM";nhour=12;}
+          else if(nhour<12){ap=" AM";}
+          else if(nhour==12){ap=" PM";}
+          else if(nhour>12){ap=" PM";nhour-=12;}
+
+          if(nmin<=9) nmin="0"+nmin;
+          if(nsec<=9) nsec="0"+nsec;
+
+          var clocktext=""+nhour+":"+nmin+":"+nsec+ap+"";
+          document.getElementById('clockbox').innerHTML=clocktext;
+          }
+
+          GetClock();
+          setInterval(GetClock,1000);
+          </script>
+          <li><a href="">EXPLORE WITH RESPECT</a></li>
+      </ul>
+    </div>
+
+
+      <div class="logo">
+        <a href="https://www.instagram.com/maxstatham_/" target="_blank">
+          <img class="insta" src="instagram.png" alt=""></a>
+
+          <a href="https://www.facebook.com/max.statham.54" target="_blank">
+            <img class="fb" src="facebook.png" alt=""></a>
+
+          <a href="https://www.linkedin.com/in/max-statham-1a3b61123/" target="_blank">
+            <img class="linkdin" src="linkedin.png" alt=""></a>
+
+      </div>
+
+
+  </body>
+</html>
