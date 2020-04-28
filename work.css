@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 80px;
+}
+
+.second {
+  float: right;
+  font-family: urw-din, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.title {
+  text-align: center;
+  font-family: urw-din, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.byline {
+  text-align: center;
+  font-family: urw-din, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.grid-container {
+  display: grid;
+  width: 57%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: auto;
+  grid-gap: 5px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.grid-container > div {
+  text-align: left;
+  font-family: bookmania, serif;
+  font-style: normal;
+  font-weight: 900;
+  padding: 15px 15px 13px 15px;
+  font-size: 14px;
+}
+
+a.black:link, a.black:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a.white:link, a.white:visited {
+  text-decoration: none;
+  color: white;
+}
+
+
+.item1 {
+  background-color: #e7decb;
+  color: black;
+}
+
+.item1:hover {
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+.item2 {
+  background-color: #fafafa;
+  color: black;
+}
+
+.item2:hover {
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+.item3 {
+  background-color: #fcd690;
+  color: black;
+}
+
+.item3:hover {
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+.item4 {
+  background-color: #343847;
+  color: white;
+}
+
+.item4:hover {
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+.item5 {
+  background-color: #80dfea;
+  color: black;
+}
+
+.item5:hover {
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+.item6 {
+  background-color: #7c383d;
+  color: white;
+}
+
+.item6:hover {
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+.item7 {
+  background-color: #e7decb;
+  color: black;
+}
+
+.item7:hover {
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+.item8 {
+  background-color: #39423d;
+  color: white;
+}
+
+.item8:hover {
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+#footer {
+  position: relative;
+  height: 80px;
+  margin-top: -80px;
+  clear: both;
+}
+
+hr {
+  width: 60%;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.text {
+  float: right;
+  font-family: urw-din, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  padding-right: 30px;
+}
+
+#clockbox {
+  float: right;
+  font-family: urw-din, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  padding-right: 15px;
+}
+
+.bottom {
+  width: 60%;
+  margin: auto;
+  font-family: urw-din, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  padding: 0px 15px;
+  text-decoration: none;
+
+}
+
+li a:link {
+  color: black;
+}
+
+li a:visited {
+  color: black;
+}
+
+li a:hover {
+  color: #84e5f1;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+li a:active {
+  color: #84e5f1;
+}
+
+.logo {
+  width:69px;
+  margin-left: auto;
+  margin-right: auto;
+  height:10px;
+  margin-top: 20px;
+}
+
+.logos {
+  float: left;
+  width: 13px;
+  padding-right: 10px;
+}
+
+@-webkit-keyframes appear {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
