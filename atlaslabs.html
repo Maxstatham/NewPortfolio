@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ATLAS LABS.</title>
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zym7lch.css">
+  </head>
+  <body>
+
+    <div id="container">
+      <div id="main">
+        <header>
+          <div class="title">MACALLISTER STATHAM</div>
+          <hr>
+          <div class="byline">MULTIMEDIA ARTIST</div>
+          <hr>
+        </header>
+
+        <div class="back">
+          <a href="work.html">Back</a>
+        </div>
+
+        <div class="toptext">
+          <h4>Atlas Labs - Product Design</h4>
+          <p>I had the opportunity to work on the design of a new electronic cattle ear tag during my work with a tech startup named Atlas labs. The objective of the project was to develop an ear tag capable of accurately predicting cattle meat quality in real time. By recording parameters, such as temperature, humidity, and location on the x, y, and z-axis, an algorithm could analyze the data to give a reliable prediction.</p>
+          <p>My work involved conceptualizing the outer ear tag to house the tech effectively from the extremities of agricultural weather. Below is a robust, lightweight, durable, and comfortable end product design that maintains distinct brand elements.</p>
+        </div>
+
+        <img class="imagefull" src="atlas1.png" alt="">
+        <img class="imagefull" src="atlas2.png" alt="">
+        <img class="imagefull" src="atlas3.png" alt="">
+        <img class="imagefull" src="atlas4.png" alt="">
+        <img class="imagefull" src="atlas5.png" alt="">
+
+
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="bottom">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="work.html">WORK</a></li>
+          <li><a href="archive.html">ARCHIVE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+
+          <div id="clockbox"></div>
+
+            <script type="text/javascript">
+            function GetClock(){
+            var d=new Date();
+            var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+            if(nhour==0){ap=" AM";nhour=12;}
+            else if(nhour<12){ap=" AM";}
+            else if(nhour==12){ap=" PM";}
+            else if(nhour>12){ap=" PM";nhour-=12;}
+
+            if(nmin<=9) nmin="0"+nmin;
+            if(nsec<=9) nsec="0"+nsec;
+
+            var clocktext=""+nhour+":"+nmin+":"+nsec+ap+"";
+            document.getElementById('clockbox').innerHTML=clocktext;
+            }
+
+            GetClock();
+            setInterval(GetClock,1000);
+            </script>
+
+            <div class="text">EXPLORE WITH RESPECT</div>
+        </ul>
+      </div>
+      <hr>
+      <div class="logo">
+        <a href="https://www.instagram.com/maxstatham_/" target="_blank">
+          <img class="logos" src="instagram.png" alt=""></a>
+
+          <a href="https://www.facebook.com/max.statham.54" target="_blank">
+            <img class="logos" src="facebook.png" alt=""></a>
+
+          <a href="https://www.linkedin.com/in/max-statham-1a3b61123/" target="_blank">
+            <img class="logos" src="linkedin.png" alt=""></a>
+      </div>
+    </footer>
+
+  </body>
+</html>

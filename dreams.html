@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DREAMS.</title>
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zym7lch.css">
+  </head>
+  <body>
+
+    <div id="container">
+      <div id="main">
+        <header>
+          <div class="title">MACALLISTER STATHAM</div>
+          <hr>
+          <div class="byline">MULTIMEDIA ARTIST</div>
+          <hr>
+        </header>
+
+        <div class="back">
+          <a href="work.html">Back</a>
+        </div>
+
+        <div class="toptext">
+          <h4>Dreams - Visual Effects Concept</h4>
+          <p>A concept that guides viewer through the random, choatic, and sometimes overwhelming nature of the internet. Created to the music of Zhu - Dreams</p>
+          <p></p>
+        </div>
+
+        <iframe class="videofull" src="https://www.youtube.com/embed/oLSqrykc16g"></iframe>
+
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="bottom">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="work.html">WORK</a></li>
+          <li><a href="archive.html">ARCHIVE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+
+          <div id="clockbox"></div>
+
+            <script type="text/javascript">
+            function GetClock(){
+            var d=new Date();
+            var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+            if(nhour==0){ap=" AM";nhour=12;}
+            else if(nhour<12){ap=" AM";}
+            else if(nhour==12){ap=" PM";}
+            else if(nhour>12){ap=" PM";nhour-=12;}
+
+            if(nmin<=9) nmin="0"+nmin;
+            if(nsec<=9) nsec="0"+nsec;
+
+            var clocktext=""+nhour+":"+nmin+":"+nsec+ap+"";
+            document.getElementById('clockbox').innerHTML=clocktext;
+            }
+
+            GetClock();
+            setInterval(GetClock,1000);
+            </script>
+
+            <div class="text">EXPLORE WITH RESPECT</div>
+        </ul>
+      </div>
+      <hr>
+      <div class="logo">
+        <a href="https://www.instagram.com/maxstatham_/" target="_blank">
+          <img class="logos" src="instagram.png" alt=""></a>
+
+          <a href="https://www.facebook.com/max.statham.54" target="_blank">
+            <img class="logos" src="facebook.png" alt=""></a>
+
+          <a href="https://www.linkedin.com/in/max-statham-1a3b61123/" target="_blank">
+            <img class="logos" src="linkedin.png" alt=""></a>
+      </div>
+    </footer>
+
+  </body>
+</html>
