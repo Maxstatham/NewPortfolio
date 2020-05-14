@@ -13,7 +13,7 @@ body {
   margin-right: auto;
   color: #84e5f1;
   width: 292px;
-  margin-top: 300px;
+  margin-top: 20%;
   font-family: urw-din-semi-condensed, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -26,7 +26,7 @@ body {
   width: 230px;
   height: 110px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 3%;
   position: relative;
   font-family: urw-din, sans-serif;
   font-weight: 500;
